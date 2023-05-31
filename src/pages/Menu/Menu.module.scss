@@ -1,0 +1,29 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.menu {
+    padding: 30px $padding-horizontal;
+
+    @media (max-width: $desktop_xsm) {
+        padding: 50px $padding-horizontal-sm;
+    }
+
+    @media (min-width: $desktop_xsm) and (max-width: $desktop-sm) {
+        padding: 50px $padding-horizontal-sm;
+    }
+
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 50px $padding-horizontal-md;
+    }
+}
+
+.menu {
+    &__filters {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+}
+}

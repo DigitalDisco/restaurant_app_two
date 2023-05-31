@@ -1,0 +1,15 @@
+[
+    {   "name": "",
+        "value": ""
+    },
+    {
+        "name": "Portion",
+        "value": "portion"
+    },{
+        "name": "Serving",
+        "value": "serving"
+    },{
+        "name": "Price",
+        "value": "price"
+    }
+]
